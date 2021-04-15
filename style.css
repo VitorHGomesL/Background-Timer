@@ -1,0 +1,40 @@
+
+body{
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+@media (max-width: 767px){
+    #Time{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        background-color: rgba(255, 255, 255, 0.849);
+        font-size: 40px;
+        padding: 20px;
+        border-radius: 20px;
+    }
+}
+@media (min-width:768px) and (max-width:991px){
+    #Time{position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgba(255, 255, 255, 0.849);
+    font-size: 40px;
+    padding: 20px;}
+}
+@media (min-width:992px){
+    #Time{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        font-size: 60px;
+        background-color: rgba(255, 255, 255, 0.849);
+        text-align: center;
+        width: 550px;
+        height: 70px;
+    }
+}
